@@ -1,0 +1,10 @@
+name: Naming samples
+run-name: Run by @${{github.actor}}
+on: [workflow_dispatch]
+jobs:
+  print:
+    name: Super Useful Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Amazing Script
+        run: echo "Hello"
